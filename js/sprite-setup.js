@@ -9,9 +9,27 @@ function setupSprites() {
 
   star = createSprite(100, 100, 50, 50);
   star.shapeColor = "aqua";
-  // star.addAnimation('twinkle', starAnimation);
-  // star.velocityX = -1;
-  // star.velocityY = -2;
-  // star.height = 30;
-  // star.width = 30;
+  star.addAnimation('twinkle', starAnimation);
+  star.velocityX = 0;
+  star.velocityY = randomNumber(1,3);
+  star.height = 30;
+  star.width = 30;
+
+  star2 = createSprite(100, 100, 50, 50);
+  star2.shapeColor = "aqua";
+  star2.addAnimation('twinkle', starAnimation);
+  star2.velocityX = 0;
+  star2.velocityY = randomNumber(1,3);
+  star2.height = 30;
+  star2.width = 30;
+
+  platform =createSprite (100,100,50,50);
+  platform.addAnimation('fly',platformAnimation);
+  platform.velocityX =0;
+  platform.velocityY =randomNumber(1,3);
+
+  platform2 =createSprite (200,100,50,50);
+  platform2.addAnimation('fly',platformAnimation);
+  platform2.velocityX =0;
+  platform2.velocityY =randomNumber(1,3);
 }

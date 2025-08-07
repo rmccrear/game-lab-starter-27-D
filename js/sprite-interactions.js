@@ -2,5 +2,6 @@
 function doSpriteInteraction() {
     // Example Code follows.
     // Please delete and replace with your own code.
-    star.bounceOff(player);
+    player.collide(platform);
+    player.collide(platform2);
 }
