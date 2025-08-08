@@ -8,4 +8,6 @@ var platformAnimation
 // sprite variables
 var player;
 var star;
-var score = 0;
+var star2;
+var platform;
+var platform2;

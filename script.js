@@ -3,6 +3,8 @@
 /// <reference types="p5/global" />
 /// <reference path="p5.play.d.ts" />
 
+let score = 0;
+
 function preload() {
   setupAnimations();
 }
