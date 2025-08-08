@@ -19,7 +19,8 @@ function draw() {
   // draw the score board and other boards
   // in: display-boards.js
   showBoards();
-  
+  //score
+  showScore();
   // respond to user input 
   // in: user-controls.js
   respondToUser();
@@ -31,6 +32,8 @@ function draw() {
   // control sprite interaction (bounce, displace, collide)
   // in: sprite-interaction.
   doSpriteInteraction();
+
+  
 
   // This just draws all the sprites
   drawSprites();
