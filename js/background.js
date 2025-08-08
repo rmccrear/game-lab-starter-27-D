@@ -1,4 +1,4 @@
-
+//BACKGROUND CODE
 function drawBackground() {
     background1();
 }

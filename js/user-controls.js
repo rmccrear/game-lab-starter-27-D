@@ -1,4 +1,4 @@
-
+//USER CONTROLS
 function respondToUser() {
 if (keyDown('RIGHT_ARROW')) {
     player.velocityX = 5;

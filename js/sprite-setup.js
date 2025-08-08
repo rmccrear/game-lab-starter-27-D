@@ -8,6 +8,8 @@ function setupSprites() {
   player.width = 50;
   player.velocityY =0;
 
+  //stars spawning
+
   star = createSprite(100, 0, 50, 50);
   star.shapeColor = "aqua";
   star.addAnimation('twinkle', starAnimation);
@@ -24,6 +26,7 @@ function setupSprites() {
   star2.height = 30;
   star2.width = 30;
 
+  //platforms spawning
   platform =createSprite (100,100,50,50);
   platform.addAnimation('fly',platformAnimation);
   platform.velocityX =0;

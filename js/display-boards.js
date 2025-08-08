@@ -1,4 +1,4 @@
-
+//SHOWBOARDS
 function showBoards() {
   showScore()
 }
