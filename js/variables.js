@@ -11,3 +11,4 @@ var star;
 var star2;
 var platform;
 var platform2;
+var score

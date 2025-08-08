@@ -6,6 +6,7 @@ function setupSprites() {
   player.addAnimation('fly', alienAnimation);
   player.height = 50;
   player.width = 50;
+  score = 0;
 
   star = createSprite(100, 100, 50, 50);
   star.shapeColor = "aqua";
